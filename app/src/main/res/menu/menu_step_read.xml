@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pcchang.picmystep.StepReadActivity">
+
+    <item android:id="@+id/edit" android:title="Edit"
+        app:showAsAction="ifRoom" android:icon="@drawable/ic_action_edit" />
+    <item android:id="@+id/delete" android:title="Delete"
+        app:showAsAction="ifRoom" android:icon="@drawable/ic_action_delete" />
+</menu>

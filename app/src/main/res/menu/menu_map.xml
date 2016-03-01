@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.pcchang.picmystep.MapActivity">
+
+
+    <item android:id="@+id/mark" android:title="Mark"
+        app:showAsAction="ifRoom" android:icon="@drawable/ic_action_mark" />
+    <item android:id="@+id/refresh" android:title="Refresh"
+        app:showAsAction="ifRoom" android:icon="@drawable/ic_action_refresh" />
+
+    <item android:id="@+id/satellite" android:title="Display Satellite"
+        android:checkable="true" />
+    <item android:id="@+id/traffic" android:title="Display Traffic"
+        android:checkable="true" />
+    <item android:id="@+id/curr_location" android:title="Move to Current Location" />
+    <item android:id="@+id/location_settings" android:title="Location Settings" />
+</menu>

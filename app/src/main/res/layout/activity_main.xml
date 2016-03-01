@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ff6400"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick="gotoPicStep"
+        android:nestedScrollingEnabled="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/func_camera_white"
+            android:layout_weight="1"
+            android:layout_margin="10sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:src="@drawable/func_camera_word_2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#0007db"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick="gotoStepHistory">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView6"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:src="@drawable/func_step_word" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/func_step_2_white"
+            android:layout_weight="1"
+            android:layout_margin="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#6205ac"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick="gotoMap">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/func_map_white"
+            android:layout_weight="1"
+            android:layout_margin="10sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:src="@drawable/func_map_word" />
+
+    </LinearLayout>
+
+</LinearLayout>
